@@ -1,0 +1,72 @@
+/* navbar for css */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff8dc;
+  }
+  
+  li {
+   float: left; 
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+     font: normal 20px helvetica;
+  }
+  /* Chose background-color as a grey tone  */   
+  li a:hover {
+    background-color: #FCFCF6;
+  }
+  h1{
+     color:#2dfffd;
+    text-align:center;
+    text-shadow:2px 2px #080808;
+      font: normal 50px helvetica
+    
+  }
+  body{
+    background-color:#e7e7e7;
+    color:black; 
+    font: normal 16px helvetica;
+  }
+  .card {
+    width:15%;
+    border-radius:15px;
+    box-shadow:0 4px 8px 0;
+    display:inline-block;  
+  }
+  /* targets my class ID and uses padding to secure texts in middle to make it look cleaner */
+  .container {
+    padding: 2px 16px;
+  }
+  /* Target my img by giving it a nice solid border line  */
+  img {
+    border-radius: 5px 5px 0 0;
+    border-style:solid;}
+  .wrapped{
+   display:flex;
+   justify-content:center;
+  }
+  footer {
+    display:flex;
+    justify-content:space-around;
+    text-align: center;
+    background-color: #fff8dc;
+  }
+  
+  #copyright{
+    display:flex;
+   justify-content:center;
+    text-align: center;
+    font-size: 25px;
+    color:#404040 ;
+    margin:0;
+  }
+  
+  

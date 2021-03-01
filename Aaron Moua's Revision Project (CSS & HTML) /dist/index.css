@@ -1,0 +1,79 @@
+/* navbar for css */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff8dc;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: normal 20px helvetica;
+  }
+  
+  li a:hover {
+    background-color: #fcfcf6;
+  }
+  /* active home page shows color*/
+  .active {
+    background-color: #82f9f8;
+  }
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+  }
+  h1 {
+    color: white;
+    padding: 150px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 5px 5px #2dfffd;
+    font: normal 100px helvetica;
+  }
+  p{
+    text-align: center;
+    font-size: 25px;
+    color:#FBFCFC ;
+    margin:0;
+    
+  }
+  .hero-image {
+    background-image: url("https://www.visittheusa.com.au/sites/default/files/styles/hero_l_x2/public/images/hero_media_image/2017-01/HERO_GettyImages-176979272_Web72DPI.jpg?itok=XeWOuwoL");
+    background-position: center;
+    background-size: 1700px;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  footer {
+    display:flex;
+    justify-content:space-around;
+    text-align: center;
+    background-color: #fff8dc;
+  }
+  
+   
+  /* I used this ID to get my paragraph a different color and text size for the footer section */
+  #copyright{
+    display:flex;
+   justify-content:center;
+    text-align: center;
+    font-size: 25px;
+    color:#404040 ;
+    margin:0;
+  }
+  
+  
+  
